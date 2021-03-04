@@ -1,0 +1,28 @@
+{% extends "base.html.twig" %}
+
+{% block title %}
+	Klakier's AllegroApp - Home
+{% endblock %}
+
+{% block body %}
+	<div class="bd-title h2 m-2">
+		Main Page
+	</div>
+
+	{% for message in app.flashes('success') %}
+		<div class="alert alert-warning mt-3 m-2">
+			{{ message }}
+		</div>
+	{% endfor %}
+
+	{% if allegroProfile is defined %}
+		<div class="content mt-4 m-2">
+			<p>Welcome {{ allegroProfile.firstName }} {{ allegroProfile.lastName }}. Website is still underconstruction. At the moment you can only display your shipping rates.</p>
+		</div>
+	{% else %}
+		<div class="content mt-4 m-2">
+			<p>Welcome in my app. Currently uses Allegro Sandbox.</p>
+		</div>
+	{% endif %}
+
+{% endblock %}

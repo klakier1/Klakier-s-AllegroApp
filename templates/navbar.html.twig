@@ -1,0 +1,44 @@
+{% block navbar%}
+
+{% set route_name = app.request.attributes.get('_route') %}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+	<div class="container-fluid ">
+		<a class="navbar-brand" href="{{ path('main') }}">Klakier's AllegroApp</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav me-auto">
+				<li class="nav-item">
+					<a class="nav-link {% if route_name == 'main' %}active {% endif %}" href="{{ path('main') }}">Home</a>
+				</li>
+				{% if allegroProfile is defined %}
+					<li class="nav-item">
+						<a class="nav-link {% if route_name == 'product-show' %}active {% endif %}" href="{{ path('product-show') }}">Products</a>
+					</li>
+					{# <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Other
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li>
+								<a class="dropdown-item" href="{{ path('product-create-random') }}">Create random product</a>
+							</li>
+							<li>
+								<a class="dropdown-item" href="{{ path('product-create') }}">Create new product</a>
+							</li>
+						</ul>
+					</li> #}
+					<li class="nav-item">
+						<a class="nav-link {% if route_name == 'allegro-delivery-methods-show' %}active {% endif %}" href="{{ path('allegro-delivery-methods-show') }}">Delivery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link {% if route_name == 'custom' %}active {% endif %}" href="{{ path('custom',{val: 'Klakson'}) }}">Test</a>
+					</li>
+				{% endif %}
+			</ul>
+			{% include "user.html.twig" %}
+		</div>
+	</div>
+</nav>{% endblock navbar%}

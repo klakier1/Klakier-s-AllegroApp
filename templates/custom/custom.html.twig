@@ -1,0 +1,30 @@
+{% extends "base.html.twig" %}
+
+{% block title %}
+	Klakier's AllegroApp - Custom
+{% endblock %}
+
+{% block body %}
+	<div class="bd-title h2 m-2">
+		Custom page =>
+		{{ path }}
+	</div>
+	<div class="table-responsive">
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th scope="col">Key</th>
+					<th scope="col">Value</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for key,value in envs %}
+					<tr>
+						<td>{{key}}</td>
+						<td>***</td>
+					</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+{% endblock %}

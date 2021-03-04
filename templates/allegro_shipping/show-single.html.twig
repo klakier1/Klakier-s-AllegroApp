@@ -1,0 +1,40 @@
+{% extends "base.html.twig" %}
+
+{% block title %}
+	Klakier's AllegroApp - ShippingRates
+{% endblock %}
+
+{% block body %}
+	<div class="bd-title h2 m-2">
+		Shipping Rate -
+		{{shippingRate.name}}
+	</div>
+	<div class="mt-3 m-2">
+		<ul>
+			<li>ID:
+				{{shippingRate.id}}</li>
+			<li>Name:
+				{{shippingRate.name}}</li>
+			<li>Last Modified:
+				{{shippingRate.lastModified}}</li>
+			<ol>
+				{% for rates in shippingRate.rates %}
+					<li class="h3">Delivery method name:
+						{{rates.deliveryMethod.name}}</li>
+					<ul>
+						<li>Delivery method ID:
+							{{rates.deliveryMethod.id}}</li>
+						<li>Max quantity per package:{{rates.maxQuantityPerPackage}}</li>
+						<li>First item rate:
+							{{rates.firstItemRate.amount}}
+							(min:{{rates.deliveryMethod.shippingRatesConstraints.firstItemRate.min}}, min:{{rates.deliveryMethod.shippingRatesConstraints.firstItemRate.max}})</li>
+						<li>Next item rate:
+							{{rates.nextItemRate.amount}}
+							(min:{{rates.deliveryMethod.shippingRatesConstraints.nextItemRate.min}}, min:{{rates.deliveryMethod.shippingRatesConstraints.nextItemRate.max}})</li>
+					</li>
+				</ul>
+			{% endfor %}
+			<ol></ul>
+			<button type="button" class="btn btn-success" onclick="history.back()">Back</button>
+		</div>
+	{% endblock %}

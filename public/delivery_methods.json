@@ -1,0 +1,3380 @@
+{
+    "deliveryMethods": [
+        {
+            "id": "7203cb90-864c-4cda-bf08-dc883f0c78ad",
+            "name": "Przesyłka kurierska",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": true
+                }
+            }
+        },
+        {
+            "id": "758fcd59-fbfa-4453-ae07-4800d72c2ca5",
+            "name": "List polecony priorytetowy",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT72H"
+                    },
+                    "customizable": true
+                }
+            }
+        },
+        {
+            "id": "aa1d05e0-943b-47cb-a759-9d8c16707129",
+            "name": "Allegro Przesyłka polecona",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "6.99",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT72H",
+                        "to": "PT96H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "773167b1-feec-4ae9-b20f-1ed8ccb7b1ed",
+            "name": "List polecony ekonomiczny",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT72H",
+                        "to": "PT96H"
+                    },
+                    "customizable": true
+                }
+            }
+        },
+        {
+            "id": "45309171-0415-49cd-b2cf-89e9143d20f0",
+            "name": "Paczka pocztowa priorytetowa",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": true
+                }
+            }
+        },
+        {
+            "id": "2b6ca59d-1e4c-426c-82a9-efcbd730846b",
+            "name": "Paczka pocztowa ekonomiczna",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT72H"
+                    },
+                    "customizable": true
+                }
+            }
+        },
+        {
+            "id": "74bc07eb-552f-4581-b68c-da46716d4a9a",
+            "name": "Paczka24",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "ffb2643b-4b90-4925-9d29-0d93ad9488a6",
+            "name": "Paczka48",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT48H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "845efe05-0c96-47c3-a8cb-aa4699c158ce",
+            "name": "Przesyłka kurierska pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": true
+                }
+            }
+        },
+        {
+            "id": "6a0f88ba-8f25-44fc-b1cf-25f45cbe8e72",
+            "name": "Kurier wieczór",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": false,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "12.24",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "3ca09a1f-11f2-4763-974e-ae80404062c3",
+            "name": "Kurier wieczór pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": false,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "15.31",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b90c6295-b69a-4cb4-a308-7126a02aea47",
+            "name": "Paczka24 pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "97286096-eb28-40f9-9efc-95ecbb8624ea",
+            "name": "Paczka48 pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT48H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "1fa56f79-4b6a-4821-a6f2-ca9c16d5c922",
+            "name": "List ekonomiczny",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT48H",
+                        "to": "PT96H"
+                    },
+                    "customizable": true
+                }
+            }
+        },
+        {
+            "id": "bc2a5eb6-921f-4c1e-ab96-3a1b747ff9f6",
+            "name": "List priorytetowy",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT48H",
+                        "to": "PT72H"
+                    },
+                    "customizable": true
+                }
+            }
+        },
+        {
+            "id": "4dd9c904-e892-4649-bdec-5454d6b53d28",
+            "name": "Pocztex Kurier24",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "f7e952b5-9ae8-40a9-90dd-e71ab9da29dd",
+            "name": "Pocztex Kurier48",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b6bf5f9c-6cc8-4a0e-ab2f-bd49e76528f5",
+            "name": "Pocztex Kurier24 pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "8cc6e982-0af4-4e12-be96-5387db79a166",
+            "name": "Pocztex Kurier48 pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "a6e4845b-9ace-48ea-b232-918eaf11ba6c",
+            "name": "Odbiór osobisty pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": false,
+                "maxQuantityPerPackage": {
+                    "max": 1
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT0S",
+                        "to": "PT0S"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d1aa489b-baf3-4f9d-a96e-2c4e497dc7e5",
+            "name": "Przesyłka elektroniczna (e-mail)",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 1
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT0S",
+                        "to": "PT0S"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "57b987de-ce2d-4e73-9b9f-a7c9ebe9611d",
+            "name": "Odbiór osobisty po przedpłacie",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": false,
+                "maxQuantityPerPackage": {
+                    "max": 1
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT0S",
+                        "to": "PT0S"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "afa68f62-0154-4556-9ee4-3f97c3c5bdca",
+            "name": "Odbiór osobisty w punkcie sprzedawcy",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 1
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT0S",
+                        "to": "PT0S"
+                    },
+                    "customizable": true
+                }
+            }
+        },
+        {
+            "id": "b6d6e4cf-67b3-4a4f-a38d-724335e9734f",
+            "name": "Odbiór osobisty w punkcie sprzedawcy pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 1
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT0S",
+                        "to": "PT0S"
+                    },
+                    "customizable": true
+                }
+            }
+        },
+        {
+            "id": "9081532b-5ad3-467d-80bc-9252982e9dd8",
+            "name": "Allegro miniKurier24 InPost",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "10.95",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "98f86f81-0018-41c5-ac83-073a56fc7021",
+            "name": "Allegro miniKurier24 InPost pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "13.41",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d66cfec5-12f6-452b-9a0c-16a02e717a11",
+            "name": "Odbiór w punkcie po przedpłacie",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": false,
+                "shippingTime": {
+                    "default": {
+                        "from": "PT0S",
+                        "to": "PT0S"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "f041aa82-9700-4248-aed0-df298f766b25",
+            "name": "Odbiór w punkcie pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": false,
+                "shippingTime": {
+                    "default": {
+                        "from": "PT0S",
+                        "to": "PT0S"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "7b45d0c7-5e22-46ac-824e-f0384e9aab52",
+            "name": "Paczka24 Odbiór w Punkcie",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d44995ed-edd2-4abb-999f-a56bd0f12a68",
+            "name": "Punkty Poczta, Żabka, Orlen, Ruch",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b715fac1-8ec2-4f5c-8fdf-0f9cec9085ad",
+            "name": "Paczka w RUCHu",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT48H",
+                        "to": "PT72H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "685d8b40-2571-4111-8937-9220b1710d4c",
+            "name": "Paczkomaty InPost",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "2488f7b7-5d1c-4d65-b85c-4cbcf253fd93",
+            "name": "Allegro Paczkomaty InPost",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "8.99",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b20ef9e1-faa2-4f25-9032-adbea23e5cb9",
+            "name": "Allegro Paczkomaty InPost pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "12.49",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "5d9c7838-e05f-4dec-afdd-58e884170ba7",
+            "name": "Allegro Kurier24 InPost",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "13.41",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "85c3ad2f-4ec1-446c-866e-63473ed10e26",
+            "name": "Allegro Kurier24 InPost pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "15.87",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d9616816-9a79-11e5-8994-feff819cdc9f",
+            "name": "Niemcy",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT72H",
+                        "to": "PT96H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d9616a6e-9a79-11e5-8994-feff819cdc9f",
+            "name": "Wielka Brytania",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT96H",
+                        "to": "PT120H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d9616b72-9a79-11e5-8994-feff819cdc9f",
+            "name": "Czechy",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT72H",
+                        "to": "PT96H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d9616e1a-9a79-11e5-8994-feff819cdc9f",
+            "name": "Irlandia",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT96H",
+                        "to": "PT120H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b9e02dd2-6e91-4d13-901c-5e56ab0d1cd7",
+            "name": "Paczka24 Odbiór w Punkcie pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d9616f0a-9a79-11e5-8994-feff819cdc9f",
+            "name": "Rosja",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT96H",
+                        "to": "PT120H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d9616fd2-9a79-11e5-8994-feff819cdc9f",
+            "name": "Słowacja",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT72H",
+                        "to": "PT96H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d961709a-9a79-11e5-8994-feff819cdc9f",
+            "name": "Szwecja",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT96H",
+                        "to": "PT120H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d9617388-9a79-11e5-8994-feff819cdc9f",
+            "name": "Holandia",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT72H",
+                        "to": "PT96H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d9617464-9a79-11e5-8994-feff819cdc9f",
+            "name": "Litwa",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT72H",
+                        "to": "PT96H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d961752c-9a79-11e5-8994-feff819cdc9f",
+            "name": "Białoruś",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT72H",
+                        "to": "PT96H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d96175f4-9a79-11e5-8994-feff819cdc9f",
+            "name": "Norwegia",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT96H",
+                        "to": "PT120H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d9617928-9a79-11e5-8994-feff819cdc9f",
+            "name": "Ukraina",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT96H",
+                        "to": "PT120H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d96179f0-9a79-11e5-8994-feff819cdc9f",
+            "name": "Włochy",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT96H",
+                        "to": "PT120H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d9617aae-9a79-11e5-8994-feff819cdc9f",
+            "name": "Francja",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT96H",
+                        "to": "PT120H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "e36c9ccf-e341-49a9-8fa0-f073dcd61210",
+            "name": "Punkty Poczta pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d9617d4c-9a79-11e5-8994-feff819cdc9f",
+            "name": "Belgia",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT96H",
+                        "to": "PT120H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "d9617ee6-9a79-11e5-8994-feff819cdc9f",
+            "name": "Dania",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT96H",
+                        "to": "PT120H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "ef2005d0-9a7a-11e5-8994-feff819cdc9f",
+            "name": "Hiszpania",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT120H",
+                        "to": "PT144H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "ef201386-9a7a-11e5-8994-feff819cdc9f",
+            "name": "Austria",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT72H",
+                        "to": "PT96H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "121981e4-a14b-450b-b9fe-718df1dc3cd1",
+            "name": "Paczka w RUCHu pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT48H",
+                        "to": "PT72H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "2653ca13-67c8-48c3-bbf8-ff9aa3f70ed3",
+            "name": "Paczkomaty InPost pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b12a0156-9a7b-11e5-8994-feff819cdc9f",
+            "name": "Estonia",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT72H",
+                        "to": "PT96H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b12a0158-9a7b-11e5-8994-feff819cdc9f",
+            "name": "Łotwa",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT72H",
+                        "to": "PT96H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b12a0160-9a7b-11e5-8994-feff819cdc9f",
+            "name": "Bułgaria",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT120H",
+                        "to": "PT144H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b12a0162-9a7b-11e5-8994-feff819cdc9f",
+            "name": "Chorwacja",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT120H",
+                        "to": "PT144H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b12a0164-9a7b-11e5-8994-feff819cdc9f",
+            "name": "Cypr",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT120H",
+                        "to": "PT168H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b12a0166-9a7b-11e5-8994-feff819cdc9f",
+            "name": "Finlandia",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT96H",
+                        "to": "PT120H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b12a0168-9a7b-11e5-8994-feff819cdc9f",
+            "name": "Grecja",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT120H",
+                        "to": "PT144H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b12a0170-9a7b-11e5-8994-feff819cdc9f",
+            "name": "Luksemburg",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT72H",
+                        "to": "PT96H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b12a0172-9a7b-11e5-8994-feff819cdc9f",
+            "name": "Malta",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT120H",
+                        "to": "PT168H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b12a0174-9a7b-11e5-8994-feff819cdc9f",
+            "name": "Portugalia",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT120H",
+                        "to": "PT144H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b12a0176-9a7b-11e5-8994-feff819cdc9f",
+            "name": "Rumunia",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT96H",
+                        "to": "PT120H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b12a0178-9a7b-11e5-8994-feff819cdc9f",
+            "name": "Słowenia",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT96H",
+                        "to": "PT120H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b12a0180-9a7b-11e5-8994-feff819cdc9f",
+            "name": "Węgry",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT72H",
+                        "to": "PT96H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "574d1c9e-9903-4626-903f-f72441d520d5",
+            "name": "Allegro Paczka w RUCHu",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "8.60",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT48H",
+                        "to": "PT72H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "2503b262-e08c-4c2b-8598-38e0603d0d70",
+            "name": "Allegro Paczka w RUCHu pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "11.06",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT48H",
+                        "to": "PT72H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "7e113f1c-301a-406b-aa7a-b8654bc8c762",
+            "name": "Allegro UPS Odbiór w Punkcie",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "7.99",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "bfe96673-283f-40b3-b6ba-70940b16f7a4",
+            "name": "Allegro UPS Odbiór w Punkcie pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "10.99",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "c576dc1d-4046-4b53-94de-47fc5b6913d4",
+            "name": "UPS Odbiór w Punkcie",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "e6d9d675-c8cb-4c0f-bcd2-febebfbac3d5",
+            "name": "UPS Odbiór w Punkcie pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "849a8308-240d-4045-ab30-f8207815bce4",
+            "name": "Allegro Punkty Poczta, Żabka, Orlen, Ruch",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "9.99",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "88f677d9-c125-45e0-bdf0-f965826542a9",
+            "name": "Allegro Punkty Poczta pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "13.99",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "07354b22-6484-4e90-b230-6a9dd91d95b2",
+            "name": "Kurier DB Schenker",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "142f3a14-83c9-4aa0-8580-6a9dd91d95b2",
+            "name": "Kurier DB Schenker pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "240f88db-7a7a-4d27-8004-9afbf05cfcd1",
+            "name": "Kurier Geis",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "3a9b10ce-abd5-4537-be33-9afbf05cfcd1",
+            "name": "Kurier Geis pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "42ea7239-28f2-4a0e-90da-e3934646bc7d",
+            "name": "Kurier Patron Service",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "5f439306-af7c-4371-9c88-e3934646bc7d",
+            "name": "Kurier Patron Service pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "6e68e08c-23d2-48f3-8d7a-c7e93bf55853",
+            "name": "Kurier Pekaes",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "7be240c9-d718-4c0d-bfcc-c7e93bf55853",
+            "name": "Kurier Pekaes pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "84d052b8-e148-4f15-9581-93820784def1",
+            "name": "Kurier TNT Express",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "954bc216-f562-48de-8e8e-93820784def1",
+            "name": "Kurier TNT Express pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "c3066682-97a3-42fe-9eb5-9bb2978cf293",
+            "name": "Kurier DPD",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "259b5c7a-9056-4c74-80ec-9bb2978cf293",
+            "name": "Kurier DPD pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "0e4c7d59-64b6-4b06-89c3-c1d941506dd0",
+            "name": "Allegro Kurier UPS (do 10 kg)",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "12.99",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "04b07522-70e5-4dc3-b13b-7918ea717539",
+            "name": "X-press Couriers",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "14.99",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT0S",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "17535ba6-077b-4371-ab4c-7918ea717539",
+            "name": "X-press Couriers pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "18.44",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT0S",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "8cf74350-94e8-4be7-ba3d-a736dd7621ec",
+            "name": "Kurier DTS",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "9b8e4329-92fe-479c-93de-778d33b2ff65",
+            "name": "Kurier DTS pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "c9091ffb-727e-4a88-bd7c-b17dddbefb4a",
+            "name": "Dostawa przez sprzedającego",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": true
+                }
+            }
+        },
+        {
+            "id": "d1744bea-fb26-49d4-a2b9-2b59c25132e1",
+            "name": "Dostawa przez sprzedającego pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": true
+                }
+            }
+        },
+        {
+            "id": "6eced786-aee4-47ba-9cb6-e24f8b1d3182",
+            "name": "Allegro Pocztex Kurier 48",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "11.99",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "999f8753-6340-48a0-8eba-46096f9749aa",
+            "name": "Kurier InPost pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "ec0e7fff-8233-4869-99ce-fe2b67a7de84",
+            "name": "Allegro Pocztex Kurier 48 pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "15.99",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "1a228763-c17a-4b2d-88b0-63b082b04da6",
+            "name": "Kurier InPost",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "ec6f7e1f-dda2-4ef3-bd34-deac136e0b4b",
+            "name": "Kurier Rhenus pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT48H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "ca225f8e-f5c5-42e9-a234-49fb629cd912",
+            "name": "Kurier Rhenus",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT48H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "25d687d5-5aab-41ef-afb6-c12ac1603c17",
+            "name": "Kurier Raben pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "e4d44e17-d107-447b-bebf-d82c636fe739",
+            "name": "Kurier Raben",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT48H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "ba32c220-71e1-4df6-ab2b-7d5ff19a952d",
+            "name": "Kurier FedEx pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "881504b1-13e5-4280-b453-f1211164778e",
+            "name": "Kurier FedEx",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "259b5c7a-9056-4c74-80ec-8bdc50cb0413",
+            "name": "Allegro Kurier DPD pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "16.99",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "c3066682-97a3-42fe-9eb5-3beeccab840c",
+            "name": "Allegro Kurier DPD",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": true,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "12.99",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "0.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "8de8c002-9f06-4e91-b8bc-aebcae3b9fe7",
+            "name": "Kurier DHL pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "c8be0338-63f9-42d8-bc78-ee2bd45980b6",
+            "name": "Kurier DHL",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "1205bb4a-7d74-46a4-b7de-1cb66a3d0c03",
+            "name": "Kurier GLS pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "059c0d58-6cdb-4955-ab79-9031518f80f3",
+            "name": "Kurier GLS",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "496c5d07-a095-4cf3-bc3a-2217e01172a3",
+            "name": "Kurier UPS pobranie",
+            "paymentPolicy": "CASH_ON_DELIVERY",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "b4525da7-fe10-4e89-af86-70479d3f251e",
+            "name": "Kurier UPS",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT24H",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        },
+        {
+            "id": "1fa56f79-4b6a-4821-a6f2-ca9c16d5c925",
+            "name": "Dostawa i jej koszt ustalane ze sprzedającym",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": false
+            }
+        },
+        {
+            "id": "41cc412c-ba9e-422d-9750-7918ea717539",
+            "name": "Kurier Pickpack",
+            "paymentPolicy": "IN_ADVANCE",
+            "allegroEndorsed": false,
+            "shippingRatesConstraints": {
+                "allowed": true,
+                "maxQuantityPerPackage": {
+                    "max": 999999
+                },
+                "firstItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "nextItemRate": {
+                    "min": "0.00",
+                    "max": "100000000.00",
+                    "currency": "PLN"
+                },
+                "shippingTime": {
+                    "default": {
+                        "from": "PT0S",
+                        "to": "PT24H"
+                    },
+                    "customizable": false
+                }
+            }
+        }
+    ]
+}

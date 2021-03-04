@@ -1,0 +1,25 @@
+{% block user%}
+	{% if allegroProfile is defined %}
+		<div class="dropdown navbar-nav" id="dropdown-user">
+			<div class="dropdown-toggle nav-link ps-0" data-bs-toggle="dropdown" aria-expanded="false">
+				<img id="avatar" src={{asset("img/generic_avatar.svg")}}>
+			</div>
+			<ul class="dropdown-menu dropdown-menu-lg-end" aria-labelledby="dropdownUser">
+				<li>
+					<div class="user-card">
+						<p class="fw-bold fs-5">{{allegroProfile.firstName}} {{allegroProfile.lastName}}</p>
+						<p class="fs-6 text-muted">{{allegroProfile.email}}</p>
+					</div>
+				</li>
+				<li><hr class="dropdown-divider"></li>
+				<li>
+				<a class="dropdown-item" href="{{ path('allegro-clear-token') }}">Logout</a>
+				</li>
+			</ul>
+		</div>
+	{% else %}
+		<div>
+			<a class="me-3" id="log-in" href="{{ path('allegro-authentication') }}">Log in</a>
+		</div>
+	{% endif %}
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base.html.twig" %}
+
+{% block title %}
+	Klakier's AllegroApp - Delivery
+{% endblock %}
+
+{% block body %}
+	<div class="bd-title h2 m-2">
+		Shipping Rates -
+		{{shippingRates.name}}
+	</div>
+	<div>
+		<ul>
+			<li>ID:
+				{{shippingRates.id}}</li>
+			<li>Name:
+				{{shippingRates.name}}</li>
+			<li>Price:
+				{{shippingRates.lastModified}}</li>
+		</ul>
+		<button type="button" class="btn btn-success" onclick="history.back()">Back</button>
+	</div>
+{% endblock %}
